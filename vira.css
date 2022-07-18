@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 
     
    
@@ -26,7 +27,8 @@
 }
 
 .presentation:hover {
-    background-image: url(DSC_1020.jpg)
+    background-image: url(DSC_1020.jpg);
+
 
 }
 
@@ -48,6 +50,7 @@
     box-shadow: 0 0 7px rgb(221, 80, 80);
     height: 30px;
     width: 120px;
+    letter-spacing: normal;
     cursor: pointer;
     -webkit-transition: all 1s ease-in;
     -moz-transition: all 1s ease-in;
@@ -59,7 +62,7 @@
     border: 3.5px solid rebeccapurple; 
     box-shadow: 0 0 10px rgb(221, 80, 80);
     width: 150px;
-
+    letter-spacing: 4px;
 
 }
 
@@ -136,5 +139,18 @@ font-size: 24px;
 
 }
 
+video {
+    border: 3px solid rebeccapurple; 
+    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 
+    
+
+
+
+}
 
