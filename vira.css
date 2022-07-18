@@ -1,0 +1,140 @@
+.body {
+    background-color: rgb(218, 194, 214);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+    
+}
+.shapka {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+   
+}
+.presentation {
+    transform-style: preserve-3d;
+    background-image: url(DSC_1032.jpg);
+    background-size: cover;
+    height: 85vh;
+    padding: 0 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.presentation:hover {
+    background-image: url(DSC_1020.jpg)
+
+}
+
+.presentation h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 5px 500px;
+    
+    
+
+    }
+
+.shapka h2 {
+    padding: 0 20px;
+    margin: 0 50px;
+    border: 3px solid rebeccapurple; 
+    box-shadow: 0 0 7px rgb(221, 80, 80);
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in; 
+}
+
+.shapka h2:hover {
+    border: 3.5px solid rebeccapurple; 
+    box-shadow: 0 0 10px rgb(221, 80, 80);
+    width: 150px;
+
+
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo  {
+
+    border-radius: 100px; 
+    border: 3px solid rebeccapurple; 
+    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    float: left;
+}
+h3{
+font-size: 50px;
+margin: 5px 500px;
+
+}
+
+p {
+font-size: 24px;
+
+}
+#Stazh {
+    margin-left: 20px;
+}
+#PHD {
+    margin-left: 120px;
+}
+
+#work {
+    margin-left: 220px;
+}
+
+#mova {
+
+    margin-left: 320px;
+}
+
+.Iam {
+
+    font-size: 24px;
+    color: rgb(102, 7, 102);
+    background-color: rgba(243, 170, 215, 0.87);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    width: 400px;
+    text-align: left;
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 1000px;
+    margin-top: 90px;
+    }
+
+#text {
+    display: flex;
+    border: 3px solid rebeccapurple; 
+    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    margin-left: 150PX;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 130vh;
+
+}
+
+
+
