@@ -72,7 +72,7 @@
     align-items: center;
 }
 
-#photo  {
+.photo  {
 
     border-radius: 100px; 
     border: 3px solid rebeccapurple; 
@@ -82,13 +82,16 @@
 h3{
 font-size: 50px;
 margin: 5px 500px;
+text-align: center;
 
 }
 
 p {
 font-size: 24px;
 
+
 }
+
 #Stazh {
     margin-left: 20px;
 }
@@ -126,7 +129,7 @@ font-size: 24px;
     margin-top: 90px;
     }
 
-#text {
+.text {
     display: flex;
     border: 3px solid rebeccapurple; 
     box-shadow: 0 0 7px rgb(221, 80, 80); 
@@ -136,6 +139,7 @@ font-size: 24px;
     padding-top: 7px;
     padding-bottom: 7px;
     width: 130vh;
+
 
 }
 
@@ -149,8 +153,26 @@ video {
     text-align: center;
 
     
+}
 
-
+.sing {
+    color: rgb(76, 75, 73);
+    font-size: 12px;
+    display: block;
+    text-align: center;
 
 }
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color: rgb(0, 0, 0);
+  }
+
+
 
