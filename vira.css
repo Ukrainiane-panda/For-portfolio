@@ -198,7 +198,37 @@ a:link, a:visited {
     font-size: 40px;
     margin-left: 43%;
     vertical-align: middle;
+        
+  }
+
+
+  .project {
+
+    border: 3px solid rebeccapurple;
+    border-radius: 10%; 
+    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 180px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 10%;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;     
     
+  }
+
+  .project:hover {
+    letter-spacing: 4px;
+    padding-left: 1%;
+    padding-right: 1%;
+
 
   }
   .text {
@@ -215,10 +245,12 @@ a:link, a:visited {
 
 }
 
-.education {
+.education, #proline {
     display: flex;
     flex-direction: row;
 }
+
+
 
 
 
