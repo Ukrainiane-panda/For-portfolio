@@ -1,21 +1,16 @@
-.body {
-    background-color: rgb(218, 194, 214);
+@media screen and (min-width: 800px) {
+  body {
+    background-color: #dac2d6;
     justify-content: center;
     align-items: center;
     font-family: 'Bakbak One', cursive;
-    
-}
-.shapka {
-
+  }
+  .shapka {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-
-    
-   
-}
-.presentation {
+  }
+  .presentation {
     transform-style: preserve-3d;
     background-image: url(DSC_1032.jpg);
     background-size: cover;
@@ -23,31 +18,21 @@
     padding: 0 20px;
     background-position: center;
     background-repeat: no-repeat;
-    
-}
-
-.presentation:hover {
-    background-image: url(DSC_1020.jpg);
-
-
-}
-
-.presentation h1 {
-
+  }
+  .presentation h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: white;
     margin: 5px 500px;
-    
-    
-
-    }
-
-.shapka h2 {
+  }
+  .presentation:hover {
+    background-image: url(DSC_1020.jpg);
+  }
+  .shapka h2 {
     padding: 0 20px;
     margin: 0 50px;
-    border: 3px solid rebeccapurple; 
-    box-shadow: 0 0 7px rgb(221, 80, 80);
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
     height: 30px;
     width: 120px;
     letter-spacing: normal;
@@ -55,63 +40,49 @@
     -webkit-transition: all 1s ease-in;
     -moz-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
-    transition: all 1s ease-in; 
-}
-
-.shapka h2:hover {
-    border: 3.5px solid rebeccapurple; 
-    box-shadow: 0 0 10px rgb(221, 80, 80);
+    transition: all 1s ease-in;
+  }
+  .shapka h2:hover {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
     width: 150px;
     letter-spacing: 4px;
-
-}
-
-.achievement {
+    background-color: rgba(246, 157, 157, 0.556);
+  }
+  .achievement {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.photo  {
-
-    border-radius: 50%; 
-    border: 3px solid rebeccapurple; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+  }
+  .photo {
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
     float: left;
-}
-h3{
-font-size: 50px;
-margin: 5px 500px;
-text-align: center;
-
-}
-
-p {
-font-size: 24px;
-
-
-}
-
-#Stazh {
-    margin-left: 20px;
-}
-#PHD {
-    margin-left: 120px;
-}
-
-#work {
-    margin-left: 220px;
-}
-
-#mova {
-
-    margin-left: 320px;
-}
-
-.Iam {
-
+  }
+  h3 {
+    font-size: 50px;
+    margin: 5px 500px;
+    text-align: center;
+  }
+  p {
     font-size: 24px;
-    color: rgb(102, 7, 102);
+  }
+  #Stazh {
+    margin-left: 20px;
+  }
+  #PHD {
+    margin-left: 120px;
+  }
+  #work {
+    margin-left: 220px;
+  }
+  #mova {
+    margin-left: 320px;
+  }
+  .Iam {
+    font-size: 24px;
+    color: #660766;
     background-color: rgba(243, 170, 215, 0.87);
     display: flex;
     justify-content: space-between;
@@ -127,68 +98,55 @@ font-size: 24px;
     padding-bottom: 7px;
     margin-left: 1000px;
     margin-top: 90px;
-    }
-
-
-
-video {
-    border: 3px solid rebeccapurple; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+  }
+  video {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
     width: 70%;
     height: 60%;
     margin: 0 auto;
     display: block;
     text-align: center;
-
-    
-}
-
-.sing {
-    color: rgb(76, 75, 73);
+  }
+  .sing {
+    color: #4c4b49;
     font-size: 12px;
     display: block;
     text-align: center;
-
-}
-
-a:link, a:visited {
-    color: rgb(0, 0, 0);
+  }
+  a:link,
+  a:visited {
+    color: #000000;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
-  
-  a:hover, a:active {
-    color: rgb(0, 0, 0);
+  a:hover,
+  a:active {
+    color: #000000;
   }
-
   .years {
     border: 3px solid rebeccapurple;
-    border-radius: 50%; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 5px;
     padding-right: 5px;
     width: 140px;
     text-align: center;
-    background: rgb(102,51,153);
-    background: linear-gradient(45deg, rgba(102,51,153,1) 35%, rgba(221,80,80,0.8494748241093313) 100%);
+    background: #663399;
+    background: linear-gradient(45deg, #663399 35%, rgba(221, 80, 80, 0.84947482) 100%);
     float: unset;
     margin-left: 5%;
     display: block;
     position: relative;
     margin-left: 150px;
-    
-
-
   }
-
   .title {
-
     border: 3px solid rebeccapurple;
-    border-radius: 10%; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
@@ -198,15 +156,11 @@ a:link, a:visited {
     font-size: 40px;
     margin-left: 43%;
     vertical-align: middle;
-        
   }
-
-
   .project {
-
     border: 3px solid rebeccapurple;
-    border-radius: 10%; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
@@ -220,37 +174,33 @@ a:link, a:visited {
     -webkit-transition: all 1s ease-in;
     -moz-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;     
-    
+    transition: all 1s ease-in;
   }
-
   .project:hover {
     letter-spacing: 4px;
     padding-left: 1%;
     padding-right: 1%;
-
-
+    background-color: rgba(246, 157, 157, 0.556);
   }
   .text {
     display: flex;
-    border: 3px solid rebeccapurple; 
-    box-shadow: 0 0 7px rgb(221, 80, 80); 
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
     margin-left: 150px;
     border-radius: 10px;
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     width: 130vh;
-
-
-}
-
-.education, #proline {
+  }
+  .education,
+  #proline {
     display: flex;
     flex-direction: row;
+  }
 }
-
-
-
-
-
+@media screen and (max-width: 799px) {
+  body {
+    background-color: #dac2d6;
+  }
+}
