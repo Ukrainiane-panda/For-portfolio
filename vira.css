@@ -47,7 +47,7 @@
     box-shadow: 0 0 7px #dd5050;
     width: 150px;
     letter-spacing: 4px;
-    background-color: rgba(246, 157, 157, 0.556);
+    background-color: rgba(243, 170, 215, 0.87);
   }
   .achievement {
     display: flex;
@@ -157,7 +157,10 @@
     margin-left: 43%;
     vertical-align: middle;
   }
-  .project {
+  #project1,
+  #project2,
+  #project3,
+  #project4 {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     border-radius: 10%;
@@ -176,11 +179,14 @@
     -o-transition: all 1s ease-in;
     transition: all 1s ease-in;
   }
-  .project:hover {
+  #project1:hover,
+  #project2:hover,
+  #project3:hover,
+  #project4:hover {
     letter-spacing: 4px;
     padding-left: 1%;
     padding-right: 1%;
-    background-color: rgba(246, 157, 157, 0.556);
+    background-color: rgba(243, 170, 215, 0.87);
   }
   .text {
     display: flex;
@@ -192,6 +198,7 @@
     padding-top: 7px;
     padding-bottom: 7px;
     width: 130vh;
+    background-color: rgba(243, 170, 215, 0.87);
   }
   .education,
   #proline {
