@@ -10,10 +10,11 @@ let code = document.querySelector("#github");
 let coding = document.querySelector("#project4");
 
 
+
 writing.addEventListener ("click", () => {
     if (goo.style.display != "block") {
         goo.style.display = "block";
-        edit.style.display = "none"
+        edit.style.display = "none";
         code.style.display = "none";
         emova.style.display = "none"; 
      } else {
@@ -32,7 +33,7 @@ teach.addEventListener ("click", () => {
 })
 editing.addEventListener ("click", () => {
     if (edit.style.display != "block") {
-        edit.style.display = "block";
+        edit.style.display = "block"; 
         emova.style.display = "none";
         code.style.display = "none";
         goo.style.display = "none"; 
@@ -44,7 +45,7 @@ coding.addEventListener ("click", () => {
     if (code.style.display != "block") {
         code.style.display = "block";
         emova.style.display = "none";
-        edit.style.display = "none"
+        edit.style.display = "none";
         goo.style.display = "none";
      } else {
         code.style.display = "none";
