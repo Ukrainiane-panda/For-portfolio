@@ -1,3 +1,5 @@
+
+
 document.querySelector("#project1").addEventListener("click", () => {
     var template1 = document.querySelector("#QR1");
     var templateClone1 = template1.content.cloneNode(true);
@@ -23,4 +25,3 @@ document.querySelector("#project4").addEventListener("click", () => {
             
     });
 
-    

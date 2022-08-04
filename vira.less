@@ -262,9 +262,26 @@
         
     }
     
+   
+    input, textarea {
+        border: @border; 
+        box-shadow: @box-shadow;
+        font-size: 14px;
+        width: 25%;
+
+        
+    }
+    input:focus, textarea:focus {
+        border: @border; 
+        box-shadow: @box-shadow; 
+        background-color: @undertone;
+        font-size: 14px;
+    }
 
     
     }
+
+
     
     @media screen and (max-width: 799px) {
     
@@ -276,3 +293,4 @@
         }
         
     }
+

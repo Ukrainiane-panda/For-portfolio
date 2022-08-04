@@ -76,7 +76,7 @@
         <h3>Проєкти</h3>
     <div>
         <div id="proline">
-        <h4 id="project1">Пишу</h4>        
+        <h4 id="project1"> Пишу</h4>        
         <template id="QR1">
             <img src="QR\qrcode_scholar.google.com.ua.png"> 
         </template>
@@ -115,30 +115,41 @@
         <span><a href="https://t.me/Ukrainian_panda"><img src="My-icone\001-.png"> </span>
         <span><a href="https://www.instagram.com/ukrainian.panda/"><img src="My-icone\instagram.png" alt="instagram"></a></span> 
         </div>       
-        <form>
+        <form action="#" method="post">
             <div>
-            <label>Ім'я та прізвище</label>
-            <input name="name" type="text" placeholder="Ім'я та прізвище" required="required">
+            <label>Ім'я та прізвище*
+            <input name="textInput" type="text" placeholder="Ім'я та прізвище" required="required">
+            </label>
             </div>
             <br>
             <div>
-            <label>Електронна адреса</label>
-            <input name="email" type="email" placeholder="Е-адреса" required="required">
+            <label>Електронна адреса*
+            <input name="emailInput" type="email" placeholder="Е-адреса" required="required">
+            </label>
             </div>
             <br>
             <div>
-            <label>Телефон</label>
-            <input name="tel" type="tel" pattern="\+38\ ([0-9]{3}) [0-9]{3} [0-9]{4}" placeholder="+38 (000) 000 0000" required="required">
+            <label>Телефон*
+            <input name="telInput" type="tel" pattern="\+38 \(\d{3}\) \d{3}-\d{2}-\d{2}" placeholder="+38 (000) 000 0000" required="required">
+            </label>
             </div>
             <br>
             <div>
-            <labeln>Повідомлення</label>
-            <textarea name="textAreal" placeholder="Текст повідомлення" rows="6" cols="60" required="required">
-            </textarea>
+            <labeln>Повідомлення*
+            <textarea name="textAreal" placeholder="Текст повідомлення" rows="6" cols="60" required="required"> Уведіть, будь ласка, текст повідомлення...</textarea>
+            </label>
+            </div>
+            <div>
+            <label>Даю згоду на обробку персональних даних<input id="respondence" type="checkbox" name="personaldata" checked required="required">
+            </label>
             </div>
             <br>
-            <button type="submit">Надіслати</button>            
+            <div>
+            <input type="submit" name="submitButton" value="Надіслати">
+            </div>
         </form>
+                        
+        
         </center>
 
     </div>

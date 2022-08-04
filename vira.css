@@ -205,6 +205,20 @@
     display: flex;
     flex-direction: row;
   }
+  input,
+  textarea {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    font-size: 14px;
+    width: 25%;
+  }
+  input:focus,
+  textarea:focus {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    background-color: rgba(243, 170, 215, 0.87);
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 799px) {
   body {
