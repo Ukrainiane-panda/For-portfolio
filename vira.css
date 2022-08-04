@@ -205,6 +205,13 @@
     display: flex;
     flex-direction: row;
   }
+  #emova,
+  #edit,
+  #google,
+  #github {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+  }
   input,
   textarea {
     border: 3px solid rebeccapurple;
