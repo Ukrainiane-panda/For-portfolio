@@ -210,7 +210,6 @@
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     font-size: 14px;
-    width: 25%;
   }
   input:focus,
   textarea:focus {
