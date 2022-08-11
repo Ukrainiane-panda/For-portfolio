@@ -227,6 +227,19 @@
     background-color: rgba(243, 170, 215, 0.87);
     font-size: 14px;
   }
+  .form {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+  }
+  label {
+    float: left;
+    padding-right: 10px;
+  }
+  #form {
+    float: left;
+    margin-left: 400px;
+  }
 }
 @media screen and (max-width: 799px) {
   body {
