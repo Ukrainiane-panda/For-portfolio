@@ -52,7 +52,6 @@ coding.addEventListener ("click", () => {
      }
 })
 
-
 /*
     
 
@@ -83,3 +82,4 @@ document.querySelector("#project4").addEventListener("click", (event) => {
     });
 
 */
+
