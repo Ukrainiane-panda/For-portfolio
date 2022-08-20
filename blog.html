@@ -19,7 +19,7 @@
     <div>
         <div>
         <center>
-        <p>Щоб писати в цьому блозі, потрібна авторизація</p>
+        <h4>Щоб писати в цьому блозі, потрібна авторизація</h4>
         </center>
         </div>
         <div id="blocforauthorization">
@@ -36,27 +36,53 @@
             <input style="margin-left: 200px;" type="reset" value="Очистити">
             <input id="button" type="submit" value="Увійти">
             </div>
-            <br>
         </form>
         </div>
-        <br>
         <hr>
-        <p class="opinion" hidden>Привіт! Розкажи, про що ти думаєш!</p>
-        <p id="read" hidden>Привіт! Ви можете тільки читати цей блог</p>
         <br>
         <div class="opinion" hidden>
-            <form action="#" method="post">
-                <input id="topic" type="text">
+        <center>
+        <h3>Привіт! Розкажи, про що ти думаєш!</h3>
+        </center>
+        </div>
+        <div class="opinion" hidden>
+                <form id="publication" action="#" method="post">
+                <div class="form">
+                <label for="topic">Тема</label> 
+                <input id="topic" type="text" required="required">
+                </div>
+                <br>
+                <div class="form">
+                <label for="subTopic">Підтема</label> 
                 <input id="subTopic" type="text">
-                <textarea>
+                </div>
+                <br>
+                <div class="form">
+                <label for="content">Зміст</label>
+                <textarea id="content" rows="6" cols="60" required="required"></textarea>
+                </div>
+                <div class="form">
+                <label for="file">Додати фото</label>
+                <input id="file" type="file" multiple="multiple">
+                </div>
+                <br>
+                <div class="form">
+                <button type="submit" value="Опублікувати">Опублікувати</button>
+                </div>
 
             </form>
         </div>
         <br>
+        <div id="read" hidden>
+            <center>
+            <h3>Привіт! Ви можете тільки читати цей блог</h3>
+            </center>
+            </div>
+        <br>
         <br>
     </div>
     <hr>
-    <div>
+    <div id="structure">
         <div id="data">
 
         </div>

@@ -2,6 +2,7 @@
 @box-shadow: 0 0 7px rgb(221, 80, 80);
 @background-color: rgb(218, 194, 214);
 @undertone: rgba(243, 170, 215, 0.87);
+@ground: rgba(223, 175, 205, 0.87);
 
 @media screen and (min-width: 800px) {
     
@@ -272,14 +273,14 @@
 
    
    
-    input, textarea {
+    input, textarea, button, #publication {
         border: @border; 
         box-shadow: @box-shadow;
         font-size: 14px;
         
         
     }
-    input:focus, textarea:focus {
+    input:focus, textarea:focus, button:focus {
         border: @border; 
         box-shadow: @box-shadow; 
         background-color: @undertone;
@@ -296,13 +297,44 @@
         padding-right:10px;
     }
 
-    #form, #authorization  {
+    #form, #authorization, div [id="publication"] {
         float: left;
         margin-left: 400px;
-        margin-bottom: 200px;
-       
+        margin-bottom: 60px;
+      
         
     }
+    #form {
+        margin-bottom: 200px;
+    }
+    #publication {
+        border: @border;
+        margin-left: 400px;
+        padding: 50px;
+        margin-right: 200px;
+        input, textarea { 
+            width: 600px;
+            font-size: 14px;
+
+        }
+
+    }
+
+    #publication:hover {
+        border: @border;
+        margin-left: 400px;
+        padding: 50px;
+        margin-right: 200px;
+        input, textarea { 
+            width: 600px;
+            font-size: 14px;
+
+        }
+        background-color: @ground;
+    }
+
+
+    
 
 
     }

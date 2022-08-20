@@ -215,13 +215,16 @@
     height: 300px;
   }
   input,
-  textarea {
+  textarea,
+  button,
+  #publication {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     font-size: 14px;
   }
   input:focus,
-  textarea:focus {
+  textarea:focus,
+  button:focus {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     background-color: rgba(243, 170, 215, 0.87);
@@ -237,10 +240,37 @@
     padding-right: 10px;
   }
   #form,
-  #authorization {
+  #authorization,
+  div [id="publication"] {
     float: left;
     margin-left: 400px;
+    margin-bottom: 60px;
+  }
+  #form {
     margin-bottom: 200px;
+  }
+  #publication {
+    border: 3px solid rebeccapurple;
+    margin-left: 400px;
+    padding: 50px;
+    margin-right: 200px;
+  }
+  #publication input,
+  #publication textarea {
+    width: 600px;
+    font-size: 14px;
+  }
+  #publication:hover {
+    border: 3px solid rebeccapurple;
+    margin-left: 400px;
+    padding: 50px;
+    margin-right: 200px;
+    background-color: rgba(223, 175, 205, 0.87);
+  }
+  #publication:hover input,
+  #publication:hover textarea {
+    width: 600px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 799px) {
