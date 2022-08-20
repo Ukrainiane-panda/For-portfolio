@@ -83,3 +83,20 @@ document.querySelector("#project4").addEventListener("click", (event) => {
 
 */
 
+let email = document.querySelector("#Email");
+let actualEmail = "sheludkovira@gmail.com";
+let password = document.querySelector("#password");
+let actualPassword = "0707viravS"
+let button = document.querySelector("#button");
+let mass = document.querySelectorAll(".opinion");
+let non = document.querySelector("#read");
+let blocforauthorization = document.querySelector("#blocforauthorization");
+
+
+button.addEventListener("click", () => {
+if (email === actualEmail && password === actualPassword){
+    mass.style.display = "block";
+    blocforauthorization.style.display = "none";
+} else { non.style.display = "block";
+}
+});
