@@ -49,21 +49,21 @@
                 <form id="publication" action="#" method="post">
                 <div class="form">
                 <label for="topic">Тема</label> 
-                <input id="topic" type="text" required="required">
+                <input id="topic" name="topic" type="text" required="required">
                 </div>
                 <br>
                 <div class="form">
                 <label for="subTopic">Підтема</label> 
-                <input id="subTopic" type="text">
+                <input id="subTopic" name="subTopic" type="text">
                 </div>
                 <br>
                 <div class="form">
                 <label for="content">Зміст</label>
-                <textarea id="content" rows="6" cols="60" required="required"></textarea>
+                <textarea id="content" rows="6" cols="60" required="required" spellcheck="true"></textarea>
                 </div>
                 <div class="form">
                 <label for="file">Додати фото</label>
-                <input id="file" type="file" multiple="multiple">
+                <input id="file" name="file" type="file" multiple="multiple">
                 </div>
                 <br>
                 <div class="form">
@@ -82,16 +82,17 @@
         <br>
     </div>
     <hr>
-    <div id="structure">
-        <div id="data">
-
-        </div>
-        <div id="text">
-            
-        </div>
-        <div id="">
-            
-        </div>
+    <!-- <template> -->
+    <article>
+        <header>
+            <h1 id="title">Привіт, світе!</h1>
+        </header>
+        <p>
+            "Hello, world!" - це своєрідна ідіома. Навряд чи можемо говорити про реальне вітання до світу. Скоріше це фраза, з якої починаються перші кроки у програмуванні. Адже коли додаєш перші теги розмітки HTML, стильові характеристики CSS або виписуєш елементарну функцію alert у jS, то перше, що бачиш на екрані, - цей чудовий і привітний вислів. 
+        </p> 
+    </article>
+    <!-- </template> -->
+    </div>
     </div>
 
 
