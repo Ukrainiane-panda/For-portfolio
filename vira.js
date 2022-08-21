@@ -138,8 +138,8 @@ button.addEventListener("click", () => {
 */
 
 var user = {
-email = "sheludkovira@gmail.com";
-password = "0707viraSh";
+email: "sheludkovira@gmail.com",
+password: "0707viraSh",
 
 showForm: function (element) {
     element.innerHTML ("beforeend", `<h3>Привіт! Розкажи, про що ти думаєш!</h3><br />`)
