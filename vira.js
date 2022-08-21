@@ -83,16 +83,17 @@ document.querySelector("#project4").addEventListener("click", (event) => {
 
 */
 
-let email = document.querySelector("#Email");
-let actualEmail = "sheludkovira@gmail.com";
-let password = document.querySelector("#password");
-let actualPassword = "0707viraSh"
-let button = document.querySelector("#button");
-let mass = document.querySelectorAll(".opinion");
-let non = document.querySelector("#read");
-let blocforauthorization = document.querySelector("#blocforauthorization");
+//Змінні до першого і другого варіантів коду 
+//let email = document.querySelector("#Email");
+//let actualEmail = "sheludkovira@gmail.com";
+//let password = document.querySelector("#password");
+//let actualPassword = "0707viraSh";
+//let button = document.querySelector("#button");
+//let mass = document.querySelectorAll(".opinion");
+//let non = document.querySelector("#read");
+//let blocforauthorization = document.querySelector("#blocforauthorization");
 
-/*
+/* Перший варіант
 button.addEventListener("click", () => {
 if (email === actualEmail && password === actualPassword){
     mass.style.display = "block";
@@ -101,6 +102,7 @@ if (email === actualEmail && password === actualPassword){
 }
 });
 */
+/* Другий варіант коду
 button.addEventListener("click", () => {
     if (email === actualEmail && password === actualPassword){
         for (const m of mass){
@@ -111,3 +113,43 @@ button.addEventListener("click", () => {
     else { non.style.display = "block"; 
     }
 });
+*/
+
+/* Ще один код, який не працює
+
+let email = document.querySelector("#Email");
+const actualEmail = "sheludkovira@gmail.com";
+let password = document.querySelector("#password");
+const actualPassword = "0707viraSh";
+let button = document.querySelector("#button");
+let mass = document.querySelector("#opinion");
+let non = document.querySelector("#read");
+let blocforauthorization = document.querySelector("#blocforauthorization");
+
+button.addEventListener("click", () => {
+    if (email === actualEmail && password === actualPassword){
+        mass.innerHTML ("beforeend", `<h3>Привіт! Розкажи, про що ти думаєш!</h3><br />`);
+        blocforauthorization.style.display = "none";
+    }
+    else { non.style.display = "block"; 
+}   
+
+});
+*/
+
+var user = {
+email = "sheludkovira@gmail.com";
+password = "0707viraSh";
+
+showForm: function (element) {
+    element.innerHTML ("beforeend", `<h3>Привіт! Розкажи, про що ти думаєш!</h3><br />`)
+}
+}
+
+let blocforauthorization = document.querySelector("#blocforauthorization");
+
+document.querySelector("#button").addEventListener("click", ()=>{
+    if(document.querySelector("#Email") === this.email && document.querySelector("#password") === this.password){
+    showForm()
+    }
+})
