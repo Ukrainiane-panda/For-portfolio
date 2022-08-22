@@ -273,14 +273,14 @@
 
    
    
-    input, textarea, button, #publication {
+    input, textarea {
         border: @border; 
         box-shadow: @box-shadow;
         font-size: 14px;
         
         
     }
-    input:focus, textarea:focus, button:focus {
+    input:focus, textarea:focus {
         border: @border; 
         box-shadow: @box-shadow; 
         background-color: @undertone;
@@ -297,98 +297,19 @@
         padding-right:10px;
     }
 
-    #form, #authorization, div [id="publication"], article {
+    #form {
         float: left;
         margin-left: 400px;
         margin-bottom: 60px;
-      
+              
         
     }
     #form {
         margin-bottom: 200px;
     }
-    article, #publication {
-        border: @border;
-        margin-left: 400px;
-        padding: 50px;
-        margin-right: 200px;
-        input, textarea { 
-            width: 600px;
-            font-size: 14px;
-
-        }
-
-    }
-
-    article:hover, #publication:hover {
-        border: @border;
-        margin-left: 400px;
-        padding: 50px;
-        margin-right: 200px;
-        input, textarea { 
-            width: 600px;
-            font-size: 14px;
-
-        }
-        background-color: @ground;
-    }
-
-#articletemplate {
-    width: 900px;
-    height: 200px;
-    margin-left: 250px;
-    display: grid;
-    grid-template-columns: 650px 200px;
-    grid-template-rows: 40px 115px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    border: @border;
-    box-shadow: @box-shadow;
-
-}
-
-#titleheader {
-
-    border: @border;
-    box-shadow: @box-shadow;
-    height: 40px; 
-    width: 650px;
-    margin-right: 250px;
-    margin-left: 250px;
-    grid-area: 1 / 1 / auto / span 3;
-    font-size: 30px;
-    text-align: center;
-
-}
-#maincontent {
-    border: @border;
-    box-shadow: @box-shadow;
-    height: 115px; 
-    width: 650px;
-    margin-right: 250px;
-    margin-left: 250px;
-    grid-area: 2 / 1 / span 2 / span 3;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    //word-wrap: break-word;
-    font-size: 14px;
-    line-height: 1.5;
-    //display: -webkit-box;
-    //-webkit-line-clamp: 5;
-    //-webkit-box-orient: vertical;  
-    //overflow: hidden;
-
-}
-#illustration {
-    border: @border;
-    box-shadow: @box-shadow;
-    grid-area: 1 / 1 / span 2 / span 3;
-
-}
-    
 
 
+   
     }
 
 

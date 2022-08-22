@@ -215,16 +215,13 @@
     height: 300px;
   }
   input,
-  textarea,
-  button,
-  #publication {
+  textarea {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     font-size: 14px;
   }
   input:focus,
-  textarea:focus,
-  button:focus {
+  textarea:focus {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     background-color: rgba(243, 170, 215, 0.87);
@@ -239,87 +236,13 @@
     float: left;
     padding-right: 10px;
   }
-  #form,
-  #authorization,
-  div [id="publication"],
-  article {
+  #form {
     float: left;
     margin-left: 400px;
     margin-bottom: 60px;
   }
   #form {
     margin-bottom: 200px;
-  }
-  article,
-  #publication {
-    border: 3px solid rebeccapurple;
-    margin-left: 400px;
-    padding: 50px;
-    margin-right: 200px;
-  }
-  article input,
-  #publication input,
-  article textarea,
-  #publication textarea {
-    width: 600px;
-    font-size: 14px;
-  }
-  article:hover,
-  #publication:hover {
-    border: 3px solid rebeccapurple;
-    margin-left: 400px;
-    padding: 50px;
-    margin-right: 200px;
-    background-color: rgba(223, 175, 205, 0.87);
-  }
-  article:hover input,
-  #publication:hover input,
-  article:hover textarea,
-  #publication:hover textarea {
-    width: 600px;
-    font-size: 14px;
-  }
-  #articletemplate {
-    width: 900px;
-    height: 200px;
-    margin-left: 250px;
-    display: grid;
-    grid-template-columns: 650px 200px;
-    grid-template-rows: 40px 115px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    border: 3px solid rebeccapurple;
-    box-shadow: 0 0 7px #dd5050;
-  }
-  #titleheader {
-    border: 3px solid rebeccapurple;
-    box-shadow: 0 0 7px #dd5050;
-    height: 40px;
-    width: 650px;
-    margin-right: 250px;
-    margin-left: 250px;
-    grid-area: 1 / 1 / auto / span 3;
-    font-size: 30px;
-    text-align: center;
-  }
-  #maincontent {
-    border: 3px solid rebeccapurple;
-    box-shadow: 0 0 7px #dd5050;
-    height: 115px;
-    width: 650px;
-    margin-right: 250px;
-    margin-left: 250px;
-    grid-area: 2 / 1 / span 2 / span 3;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  #illustration {
-    border: 3px solid rebeccapurple;
-    box-shadow: 0 0 7px #dd5050;
-    grid-area: 1 / 1 / span 2 / span 3;
   }
 }
 @media screen and (max-width: 799px) {
