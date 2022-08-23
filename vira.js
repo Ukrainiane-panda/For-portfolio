@@ -1,4 +1,4 @@
-// Відкрити QR за допомогою шаблонізатора
+
 
 let goo = document.querySelector("#google");
 let writing = document.querySelector("#project1");
@@ -51,6 +51,8 @@ coding.addEventListener ("click", () => {
         code.style.display = "none";
      }
 })
+
+// Відкрити QR за допомогою шаблонізатора
 
 /*
     
