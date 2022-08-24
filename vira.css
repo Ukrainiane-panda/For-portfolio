@@ -267,6 +267,11 @@
     border-radius: 25px;
     width: 1000px;
   }
+  audio {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 40%;
+  }
 }
 @media screen and (max-width: 799px) {
   body {
