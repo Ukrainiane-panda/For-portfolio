@@ -244,6 +244,29 @@
   #form {
     margin-bottom: 200px;
   }
+  #victory {
+    display: block;
+    float: inline;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    box-sizing: content-box;
+    position: relative;
+  }
+  .victory {
+    height: 150px;
+    margin: 2px;
+  }
+  .textaboutart {
+    margin-left: 450px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 25px;
+    width: 1000px;
+  }
 }
 @media screen and (max-width: 799px) {
   body {
