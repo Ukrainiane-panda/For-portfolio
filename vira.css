@@ -273,6 +273,26 @@
     box-shadow: 0 0 7px #dd5050;
     border-radius: 40%;
   }
+  #sportsblock,
+  #danceblock {
+    background-color: rgba(243, 170, 215, 0.87);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 400px;
+    min-width: 250px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 25px;
+    text-align: center;
+  }
+  #sportsblock img,
+  #danceblock img {
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+  }
 }
 @media screen and (max-width: 799px) {
   body {
