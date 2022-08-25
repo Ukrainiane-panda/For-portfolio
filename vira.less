@@ -3,6 +3,10 @@
 @background-color: rgb(218, 194, 214);
 @undertone: rgba(243, 170, 215, 0.87);
 @ground: rgba(223, 175, 205, 0.87);
+.createBeetwen(@display: flex; @justify-content: space-between;) {
+    display: @display;
+    justify-content: @justify-content;
+}
 
 @media screen and (min-width: 800px) {
     
@@ -18,7 +22,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+
          
        
     }
@@ -53,7 +57,8 @@
     
     .shapka h2 {
         padding: 0 20px;
-        margin: 0 50px;
+        margin-left: auto;
+        margin-right: auto;
         border: @border; 
         box-shadow: @box-shadow;
         height: 30px;
@@ -314,14 +319,17 @@
         border: @border;
         box-shadow: @box-shadow;
         box-sizing: content-box;
-        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        .createBeetwen();
+        img {
+            
+            padding: auto;
+                }
     
         
     }
-    .victory {
-        height: 150px;
-        margin: 2px;
-    }
+
 
 
 
@@ -344,12 +352,20 @@
         border: @border;
         box-shadow: @box-shadow;
         border-radius: 40%;
+        margin-left: auto;
+        margin-right: auto;
             }
+
+#sport {
+            .createBeetwen();}
 
     #sportsblock, #danceblock {
         background-color: @undertone;
+        display: flex;
+        justify-content: space-between;
         padding: 20px;
-        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
         display: inline-block;
         vertical-align: top;
         min-height: 400px;

@@ -30,7 +30,8 @@
   }
   .shapka h2 {
     padding: 0 20px;
-    margin: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     height: 30px;
@@ -250,11 +251,13 @@
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     box-sizing: content-box;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
   }
-  .victory {
-    height: 150px;
-    margin: 2px;
+  #victory img {
+    padding: auto;
   }
   .textaboutart {
     margin-left: 450px;
@@ -272,12 +275,21 @@
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sport {
+    display: flex;
+    justify-content: space-between;
   }
   #sportsblock,
   #danceblock {
     background-color: rgba(243, 170, 215, 0.87);
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
     vertical-align: top;
     min-height: 400px;
