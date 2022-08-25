@@ -1,18 +1,16 @@
+
+let chooseSong = function (songs) {
+    return songs[Math.floor(Math.random() * songs.length)];
+};
+
+let randomSongs = [];
+randomSongs[0] = document.querySelector("#one");
+randomSongs[1] = document.querySelector("#two");
+randomSongs[2] = document.querySelector("#rthree");
+randomSongs[3] = document.querySelector("#four");
+randomSongs[4] = document.querySelector("#five");
+
 document.addEventListener('DOMContentLoaded', (event) => {
-
-
-    /*
-let songs = [];
-songs[0] = document.querySelector("#one");
-songs[1] = document.querySelector("#two");
-songs[2] = document.querySelector("#rthree");
-songs[3] = document.querySelector("#four");
-songs[4] = document.querySelector("#five");
-
-
-
-songs[Math.floor(Math.random() * 5)];
-
-*/
-
+   // event.chooseSong(randomSongs);
+   chooseSong(randomSongs);
 });

@@ -358,6 +358,11 @@
         box-shadow: @box-shadow;
         border-radius: 25px;
         text-align: center;
+        cursor: pointer;
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in; 
 
         img {
         border-radius: 50%; 
@@ -365,6 +370,12 @@
         box-shadow: @box-shadow;
 
         }
+    }
+
+    #sportsblock:hover, #danceblock:hover {
+        background-color: @ground;
+
+
     }
 
 
