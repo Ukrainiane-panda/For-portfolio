@@ -13,7 +13,6 @@ randomSongs[4] = document.querySelector("#five");
 document.addEventListener('DOMContentLoaded', (event) => {
     var song = chooseSong(randomSongs).getAttribute("src"),
         audioElement = document.getElementById('audioElem');
-    console.dir(song);
     audioElement.setAttribute('src', song);
     document.body.addEventListener("mousemove", function () {
         audioElement.play();
