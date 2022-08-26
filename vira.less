@@ -1,8 +1,10 @@
+// змінні
 @border: 3px solid rebeccapurple; 
 @box-shadow: 0 0 7px rgb(221, 80, 80);
 @background-color: rgb(218, 194, 214);
 @undertone: rgba(243, 170, 215, 0.87);
 @ground: rgba(223, 175, 205, 0.87);
+//mixin
 .createBeetwen(@display: flex; @justify-content: space-between;) {
     display: @display;
     justify-content: @justify-content;
@@ -95,7 +97,7 @@
     }
     h3{
     font-size: 50px;
-    margin: 5px 500px;
+    margin: 0px auto;
     text-align: center;
         
     }
@@ -210,10 +212,12 @@
         width: 180px;
         text-align: center;
         font-size: 40px;
-        margin-left: 43%;
         vertical-align: middle;
+        margin: 0 auto;
             
       }
+
+
     
     
         #project1, #project2, #project3, #project4 {
@@ -225,10 +229,11 @@
         padding-bottom: 20px;
         padding-left: 5px;
         padding-right: 5px;
+        .createBeetwen();
+        margin: 50px auto;
         width: 180px;
         text-align: center;
         font-size: 40px;
-        margin-left: 10%;
         letter-spacing: normal;
         cursor: pointer;
         -webkit-transition: all 1s ease-in;
@@ -244,7 +249,7 @@
         padding-right: 1%;
         background-color: @undertone;
     
-    
+       
       }
       .text {
         display: flex;
@@ -273,6 +278,13 @@
         box-shadow: @box-shadow;
         width: 300px;
         height: 300px;
+        margin: 0 auto;
+
+    }
+    #cocialnetworks, #writeme  {
+        display: flex; 
+        justify-content: center;
+        margin: 10px auto;
 
     }
 
@@ -328,6 +340,15 @@
                 }
     
         
+    }
+
+    .mydrawing {
+        border-radius: 50%; 
+        border: @border; 
+        box-shadow: @box-shadow;
+        float: left;
+
+
     }
 
 

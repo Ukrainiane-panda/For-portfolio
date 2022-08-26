@@ -94,61 +94,59 @@
         </template> -->
         </div>
         <div id="QRImage">
-            <center>
                 <img id="google" src="QR\qrcode_scholar.google.com.ua.png" hidden>
                 <img id="emova" src="QR\qrcode_emova.language-ua.online.png" hidden> 
                 <img id="edit" src="QR\qrcode_pes-hermes.site.png" hidden>
                 <img id="github" src="QR\qrcode_github.com.png" hidden> 
                 <!-- <span id="template-qr"></span> -->
-            </center>
         </div>
     </div>
     </div>
     <hr>
     <div id="contacts">
         <h3>Контакти</h3>
-        <center>
-        <div>
+        
+        <div id="mycontacts">
 
-        <div>
-        <span><a href="https://www.linkedin.com/in/vira-sheludko-phd-15929523a/"><img src="My-icone\linkedin.png" alt="linkedin"></a></span> 
-        <span><a href="https://github.com/Ukrainiane-panda"><img src="My-icone\001-github.png" alt="github"></a></span> 
-        <span><a href="https://www.facebook.com/vira.sheludko"><img src="My-icone\facebook.png" alt="facebook"></a></span>   
-        <span><a href="https://t.me/Ukrainian_panda"><img src="My-icone\001-.png"> </span>
-        <span><a href="https://www.instagram.com/ukrainian.panda/"><img src="My-icone\instagram.png" alt="instagram"></a></span> 
-        </div>  
-        <h4>Або напишіть мені тут</h4>
-        </center> 
+            <div id="cocialnetworks">
+                <span><a href="https://www.linkedin.com/in/vira-sheludko-phd-15929523a/"><img src="My-icone\linkedin.png" alt="linkedin"></a></span> 
+                <span><a href="https://github.com/Ukrainiane-panda"><img src="My-icone\001-github.png" alt="github"></a></span> 
+                <span><a href="https://www.facebook.com/vira.sheludko"><img src="My-icone\facebook.png" alt="facebook"></a></span>   
+                <span><a href="https://t.me/Ukrainian_panda"><img src="My-icone\001-.png"> </span>
+                <span><a href="https://www.instagram.com/ukrainian.panda/"><img src="My-icone\instagram.png" alt="instagram"></a></span> 
+            </div>  
+        <h4 id="writeme">Або напишіть мені тут</h4>
+         
         <form id="form" action="#" method="post">
             <br>
-            <div class="form">
-            <label for="name">Ім'я та прізвище*</label>
-            <input id="name" name="textInput" type="text" placeholder="Ім'я та прізвище" required="required" style="width: 500px;">
-            </div>
+                <div class="form">
+                    <label for="name">Ім'я та прізвище*</label>
+                    <input id="name" name="textInput" type="text" placeholder="Ім'я та прізвище" required="required" style="width: 500px;">
+                </div>
             <br>
-            <div class="form">
-            <label for="email">Електронна адреса*</label>
-            <input id="email" name="emailInput" type="email" placeholder="Е-адреса" required="required" style="width: 500px;">
-            </div>
+                <div class="form">
+                    <label for="email">Електронна адреса*</label>
+                    <input id="email" name="emailInput" type="email" placeholder="Е-адреса" required="required" style="width: 500px;">
+                </div>
             <br>
-            <div class="form">
-            <label for="tel">Телефон*</label>
-            <input id="tel" name="telInput" type="tel" pattern="\+38 \(\d{3}\) \d{3}-\d{2}-\d{2}" placeholder="+38 (000) 000-00-00" required="required" maxlength="19" style="width: 500px;">
-            </div>
+                <div class="form">
+                    <label for="tel">Телефон*</label>
+                    <input id="tel" name="telInput" type="tel" pattern="\+38 \(\d{3}\) \d{3}-\d{2}-\d{2}" placeholder="+38 (000) 000-00-00" required="required" maxlength="19" style="width: 500px;">
+                </div>
             <br>
-            <div class="form">
-            <label for="massege">Повідомлення*</label>
-            <textarea id="massege" name="textAreal" spellcheck = "true | false" placeholder="Текст повідомлення" rows="6" cols="60" required="required"></textarea>
-            </div>
+                <div class="form">
+                    <label for="massege">Повідомлення*</label>
+                    <textarea id="massege" name="textAreal" spellcheck = "true | false" placeholder="Текст повідомлення" rows="6" cols="60" required="required"></textarea>
+                </div>
             <br>
-            <div class="form">
-            <label style="margin-left: 200px;">Даю згоду на обробку персональних даних<input id="respondence" type="checkbox" name="personaldata" checked required="required">
-            </label>
-            </div>
+                <div class="form">
+                    <label style="margin-left: 200px;">Даю згоду на обробку персональних даних<input id="respondence" type="checkbox" name="personaldata" checked required="required">
+                </label>
+                </div>
             <br>
-            <div>
-            <input type="submit" name="submitButton" value="Надіслати">
-            </div>
+                <div>
+                    <input type="submit" name="submitButton" value="Надіслати">
+                </div>
         </form>
     </div>
     
