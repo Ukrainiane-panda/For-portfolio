@@ -19,7 +19,7 @@
         font-family: 'Bakbak One', cursive;
         
     }
-    .shapka {
+    .shapka, #hedder {
     
         display: flex;
         flex-direction: row;
@@ -57,7 +57,7 @@
     
     
     
-    .shapka h2 {
+    #hedder h2, .shapka h2 {
         padding: 0 20px;
         margin-left: auto;
         margin-right: auto;
@@ -65,6 +65,7 @@
         box-shadow: @box-shadow;
         height: 30px;
         width: 120px;
+        text-align: center;
         letter-spacing: normal;
         cursor: pointer;
         -webkit-transition: all 1s ease-in;
@@ -73,7 +74,7 @@
         transition: all 1s ease-in; 
     }
     
-    .shapka h2:hover {
+    #hedder h2:hover, .shapka h2:hover {
         border: @border; 
         box-shadow: @box-shadow;
         width: 150px;
@@ -376,9 +377,13 @@
 
 
 #sport {
-            .createBeetwen();}
+            .createBeetwen();
+            flex-wrap: wrap;
+            margin: 30px;
+        
+        }
 
-    #sportsblock, #danceblock {
+    #sportsblock, #danceblock, #cycling {
         background-color: @undertone;
         display: flex;
         justify-content: space-between;
@@ -403,13 +408,20 @@
         border-radius: 50%; 
         border: @border; 
         box-shadow: @box-shadow;
+        margin: 20px;
+        transition: 1s;
+
+        }
+
+        img:hover {
+            transform: scale(1.2);
 
         }
 
     
     }
 
-    #sportsblock:hover, #danceblock:hover {
+    #sportsblock:hover, #danceblock:hover, #cycling:hover {
         background-color: @ground;
 
 
@@ -436,7 +448,7 @@
         text-align: center;
         border: @border;
         box-shadow: @box-shadow;
-        border-radius: 25%;
+        border-radius: 10%;
         padding: 10px 25px;
         background-color: @undertone;
         margin: 0 auto;
@@ -444,9 +456,71 @@
 
     }
 
+    #buttonTrip{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
-   
     }
+
+    #ua, #eu {
+        border: @border; 
+        box-shadow: @box-shadow;
+        border-radius: 10%; 
+        .createBeetwen();
+        margin: 50px auto;
+        width: 300px;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: normal;
+        cursor: pointer;
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in;   
+
+    }
+
+    #ua:hover, #eu:hover {
+        letter-spacing: 4px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: @undertone;
+    }
+
+
+    #triptoUkraine, #triptoEurope {
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .trip {
+        margin: 50px;
+    }
+ 
+
+
+
+    iframe {
+       
+        border: @border;
+        box-shadow: @box-shadow;
+        border-radius: 50%;
+        transition: 1s;   
+
+        }
+
+    iframe:hover {
+        transform: scale(1.5);
+
+    }
+
+
+      
+    }
+
 
 
     

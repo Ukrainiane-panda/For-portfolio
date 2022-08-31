@@ -18,3 +18,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
         audioElement.play();
     })
 });
+
+
+let buttonUa = document.querySelector("#ua");
+let buttonEu = document.querySelector("#eu");
+let tripUa = document.querySelector("#triptoUkraine");
+let tripEu = document.querySelector("#triptoEurope");
+
+buttonUa.addEventListener ("click", () =>{
+    if (tripUa.style.display != "flex") {
+        tripUa.style.display = "flex";
+        tripEu.style.display = "none";
+     } else {
+        tripUa.style.display = "none";
+     }
+})
+buttonEu.addEventListener ("click", () =>{
+    if (tripEu.style.display != "flex") {
+        tripEu.style.display = "flex";
+        tripUa.style.display = "none";
+     } else {
+        tripEu.style.display = "none";
+     }
+})

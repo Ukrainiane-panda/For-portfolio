@@ -5,7 +5,8 @@
     align-items: center;
     font-family: 'Bakbak One', cursive;
   }
-  .shapka {
+  .shapka,
+  #hedder {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,6 +29,7 @@
   .presentation:hover {
     background-image: url(DSC_1020.jpg);
   }
+  #hedder h2,
   .shapka h2 {
     padding: 0 20px;
     margin-left: auto;
@@ -36,6 +38,7 @@
     box-shadow: 0 0 7px #dd5050;
     height: 30px;
     width: 120px;
+    text-align: center;
     letter-spacing: normal;
     cursor: pointer;
     -webkit-transition: all 1s ease-in;
@@ -43,6 +46,7 @@
     -o-transition: all 1s ease-in;
     transition: all 1s ease-in;
   }
+  #hedder h2:hover,
   .shapka h2:hover {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
@@ -296,9 +300,12 @@
   #sport {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
   }
   #sportsblock,
-  #danceblock {
+  #danceblock,
+  #cycling {
     background-color: rgba(243, 170, 215, 0.87);
     display: flex;
     justify-content: space-between;
@@ -320,13 +327,22 @@
     transition: all 1s ease-in;
   }
   #sportsblock img,
-  #danceblock img {
+  #danceblock img,
+  #cycling img {
     border-radius: 50%;
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
+    margin: 20px;
+    transition: 1s;
+  }
+  #sportsblock img:hover,
+  #danceblock img:hover,
+  #cycling img:hover {
+    transform: scale(1.2);
   }
   #sportsblock:hover,
-  #danceblock:hover {
+  #danceblock:hover,
+  #cycling:hover {
     background-color: rgba(223, 175, 205, 0.87);
   }
   #cooking,
@@ -348,10 +364,59 @@
     text-align: center;
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
-    border-radius: 25%;
+    border-radius: 10%;
     padding: 10px 25px;
     background-color: rgba(243, 170, 215, 0.87);
     margin: 0 auto;
+  }
+  #buttonTrip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #ua,
+  #eu {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  #ua:hover,
+  #eu:hover {
+    letter-spacing: 4px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  #triptoUkraine,
+  #triptoEurope {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .trip {
+    margin: 50px;
+  }
+  iframe {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  iframe:hover {
+    transform: scale(1.5);
   }
 }
 @media screen and (max-width: 799px) {
