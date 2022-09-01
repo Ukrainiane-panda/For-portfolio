@@ -365,7 +365,7 @@
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     border-radius: 10%;
-    padding: 10px 25px;
+    padding: 20px;
     background-color: rgba(243, 170, 215, 0.87);
     margin: 0 auto;
   }
@@ -417,6 +417,33 @@
   }
   iframe:hover {
     transform: scale(1.5);
+  }
+  #myphotofromatrip span,
+  #myphotofromatriptoEurope span {
+    display: flex;
+    justify-content: space-between;
+  }
+  #myphotofromatrip img,
+  #myphotofromatriptoEurope img {
+    display: flex;
+    margin: auto;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  #myphotofromatrip img:hover,
+  #myphotofromatriptoEurope img:hover {
+    transform: scale(1.5);
+  }
+  #myphotofromatrip p,
+  #myphotofromatriptoEurope p {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: rgba(243, 170, 215, 0.87);
+    text-align: center;
   }
 }
 @media screen and (max-width: 799px) {
