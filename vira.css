@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   body {
     background-color: #dac2d6;
     justify-content: center;
@@ -27,7 +27,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: white;
-    margin: 5px 500px;
+    text-align: center;
   }
   #hedder h2,
   .shapka h2 {
@@ -89,9 +89,6 @@
     font-size: 24px;
     color: #660766;
     background-color: rgba(243, 170, 215, 0.87);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
     width: 400px;
     text-align: left;
     height: auto;
@@ -101,8 +98,7 @@
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
-    margin-left: 1000px;
-    margin-top: 90px;
+    float: right;
   }
   video {
     border: 3px solid rebeccapurple;
@@ -446,8 +442,41 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 899px) {
   body {
     background-color: #dac2d6;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+  }
+  .shapka {
+    display: block;
+  }
+  .shapka h2 {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    text-align: center;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  .shapka h2:hover {
+    letter-spacing: 4px;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  .presentation {
+    background-image: url(DSC_1131.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 500px;
+  }
+  .presentation h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
   }
 }

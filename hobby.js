@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var song = chooseSong(randomSongs).getAttribute("src"),
         audioElement = document.getElementById('audioElem');
     audioElement.setAttribute('src', song);
-    document.body.addEventListener("mousemove", function () {
+    document.body.addEventListener("click", function () {
         audioElement.play();
     })
 });

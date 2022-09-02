@@ -10,7 +10,7 @@
     justify-content: @justify-content;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     
     body {
         background-color: @background-color;
@@ -50,7 +50,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 50px;
         color: white;
-        margin: 5px 500px;
+        text-align: center;
         
         
     
@@ -131,9 +131,6 @@
         font-size: 24px;
         color: rgb(102, 7, 102);
         background-color: @undertone;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
         width: 400px;
         text-align: left;
         height: auto;
@@ -143,9 +140,8 @@
         padding-left: 20px;
         padding-top: 7px;
         padding-bottom: 7px;
-        margin-left: 1000px;
-        margin-top: 90px;
-        }
+        float: right;
+                }
     
     
     
@@ -439,10 +435,9 @@
             transition: 1s;
 
 
-    }
-    .eat:hover {
+        &:hover {
         transform: scale(1.2);
-    }
+    }}
 
     #aboutCooking {
         text-align: center;
@@ -558,14 +553,58 @@
 
 
     
-    @media screen and (max-width: 799px) {
+    @media screen and (max-width: 899px) {
     
     
     
     body {
         background-color: @background-color;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bakbak One', cursive;
             
         }
+    .shapka {
+        display: block;
+
+        h2 {
+            border: @border;
+            box-shadow: @box-shadow;
+            text-align: center;
+            letter-spacing: normal;
+            cursor: pointer;
+            -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+            transition: all 1s ease-in; 
+        
+
+
+            &:hover {
+                letter-spacing: 4px;
+                background-color: @undertone;
+            }
+        }
+
+    }
+
+    .presentation {
+        background-image: url(DSC_1131.jpg);
+        background-repeat: no-repeat;
+        background-size: 800px;
+        height: 500px;       
+
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        
+        }
+    }
+
+
         
     }
 
