@@ -360,7 +360,7 @@
     text-align: center;
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
-    border-radius: 10%;
+    border-radius: 25px;
     padding: 20px;
     background-color: rgba(243, 170, 215, 0.87);
     margin: 0 auto;
@@ -374,7 +374,7 @@
   #eu {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
-    border-radius: 10%;
+    border-radius: 25px;
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
@@ -436,7 +436,7 @@
   #myphotofromatriptoEurope p {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 20px;
     background-color: rgba(243, 170, 215, 0.87);
     text-align: center;
@@ -469,8 +469,9 @@
   }
   .presentation {
     background-image: url(DSC_1131.jpg);
+    position: relative;
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 899px;
     height: 500px;
   }
   .presentation h1 {
@@ -478,5 +479,105 @@
     font-size: 50px;
     color: white;
     text-align: center;
+    -webkit-text-stroke: 2px rebeccapurple;
+    -moz-text-stroke: 2px rebeccapurple;
+    -o-text-stroke: 2px rebeccapurple;
+  }
+  .presentation p {
+    border: 3px solid #660766;
+    border-radius: 15px;
+    width: 320px;
+    padding: 10px;
+    font-size: 18px;
+    color: #660766;
+    background-color: rgba(243, 170, 215, 0.87);
+    text-align: justify;
+    float: left;
+    margin-left: 25px;
+  }
+  h3 {
+    font-size: 35px;
+    margin: 0px auto;
+    text-align: center;
+    margin: 10px;
+  }
+  .achievement {
+    display: grid;
+    margin-bottom: 40px;
+  }
+  .achievement p {
+    display: grid;
+    grid-template-columns: 115px 630px;
+    grid-column-gap: 30px;
+    text-align: justify;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+  .achievement .photo {
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .achievement span {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10px;
+    padding: 7px 20px;
+    text-align: justify;
+    background-color: rgba(243, 170, 215, 0.87);
+    width: 630px;
+  }
+  video {
+    width: 800px;
+    display: flex;
+    margin: auto;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+  }
+  .sing {
+    color: #4c4b49;
+    font-size: 10px;
+    text-align: center;
+  }
+  a:link,
+  a:visited {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover,
+  a:active {
+    color: #000000;
+  }
+  #project1,
+  #project2,
+  #project3,
+  #project4 {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px auto;
+    width: 180px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  #project1:hover,
+  #project2:hover,
+  #project3:hover,
+  #project4:hover {
+    letter-spacing: 4px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(243, 170, 215, 0.87);
   }
 }
