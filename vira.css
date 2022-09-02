@@ -20,14 +20,14 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .presentation:hover {
+    background-image: url(DSC_1020.jpg);
+  }
   .presentation h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: white;
     margin: 5px 500px;
-  }
-  .presentation:hover {
-    background-image: url(DSC_1020.jpg);
   }
   #hedder h2,
   .shapka h2 {

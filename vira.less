@@ -25,9 +25,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-      
-
-         
+             
       
     }
     .presentation {
@@ -39,7 +37,11 @@
         background-position: center;
         background-repeat: no-repeat;
         
-
+        &:hover {
+            background-image: url(DSC_1020.jpg);
+        
+        
+        }
         
     }
     
@@ -53,11 +55,7 @@
         
     
         }
-    .presentation:hover {
-        background-image: url(DSC_1020.jpg);
-    
-    
-    }
+
     
     
     
@@ -76,16 +74,15 @@
         -moz-transition: all 1s ease-in;
         -o-transition: all 1s ease-in;
         transition: all 1s ease-in; 
-    }
     
-    #hedder h2:hover, .shapka h2:hover {
+    &:hover {
         border: @border; 
         box-shadow: @box-shadow;
         width: 150px;
         letter-spacing: 4px;
         background-color: @undertone;
     
-    }
+    }}
     
     .achievement {
         display: flex;
@@ -246,16 +243,16 @@
         -o-transition: all 1s ease-in;
         transition: all 1s ease-in;     
         
-      }
+      
     
-      #project1:hover, #project2:hover, #project3:hover, #project4:hover  {
+      &:hover  {
         letter-spacing: 4px;
         padding-left: 1%;
         padding-right: 1%;
         background-color: @undertone;
     
        
-      }
+      }}
       .text {
         display: flex;
         border: @border; 
@@ -386,7 +383,7 @@
         
         }
 
-    #sportsblock, #danceblock, #cycling {
+#sportsblock, #danceblock, #cycling {
         background-color: @undertone;
         display: flex;
         justify-content: space-between;
@@ -414,12 +411,12 @@
         margin: 20px;
         transition: 1s;
 
-        }
+       
 
-        img:hover {
+        &:hover {
             transform: scale(1.2);
 
-        }
+        }}
 
     
     }
