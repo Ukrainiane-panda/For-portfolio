@@ -507,7 +507,7 @@
   }
   .achievement p {
     display: grid;
-    grid-template-columns: 115px 630px;
+    grid-template-columns: 115px 600px;
     grid-column-gap: 30px;
     text-align: justify;
     line-height: 25px;
@@ -527,10 +527,10 @@
     padding: 7px 20px;
     text-align: justify;
     background-color: rgba(243, 170, 215, 0.87);
-    width: 630px;
+    width: 550px;
   }
   video {
-    width: 800px;
+    width: 600px;
     display: flex;
     margin: auto;
     border: 3px solid rebeccapurple;
@@ -552,15 +552,21 @@
   a:active {
     color: #000000;
   }
-  #project1,
-  #project2,
-  #project3,
-  #project4 {
+  #box {
+    display: grid;
+    grid-template-columns: 120px 630px;
+    grid-column-gap: 150px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+  #box #project1,
+  #box #project2,
+  #box #project3,
+  #box #project4 {
     border: 3px solid rebeccapurple;
     box-shadow: 0 0 7px #dd5050;
     border-radius: 10%;
     padding: 10px;
-    margin: 10px auto;
     width: 180px;
     text-align: center;
     font-size: 30px;
@@ -571,13 +577,97 @@
     -o-transition: all 1s ease-in;
     transition: all 1s ease-in;
   }
-  #project1:hover,
-  #project2:hover,
-  #project3:hover,
-  #project4:hover {
+  #box #project1:hover,
+  #box #project2:hover,
+  #box #project3:hover,
+  #box #project4:hover {
     letter-spacing: 4px;
     padding-left: 1%;
     padding-right: 1%;
     background-color: rgba(243, 170, 215, 0.87);
+  }
+  #box #emova,
+  #box #edit,
+  #box #google,
+  #box #github {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+  }
+  .education {
+    display: grid;
+    grid-template-columns: 120px 600px;
+    grid-column-gap: 40px;
+    text-align: justify;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+  .education .text {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 20px;
+    text-align: center;
+    width: 550px;
+  }
+  .years {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 140px;
+    text-align: center;
+    background: #663399;
+    background: linear-gradient(45deg, #663399 35%, rgba(221, 80, 80, 0.84947482) 100%);
+  }
+  .title {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 180px;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  #cocialnetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #writeme {
+    font-size: 16px;
+    text-align: center;
+  }
+  input,
+  textarea {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    font-size: 14px;
+  }
+  input:focus,
+  textarea:focus {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    background-color: rgba(243, 170, 215, 0.87);
+    font-size: 14px;
+  }
+  .form {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+  }
+  label {
+    float: left;
+    padding-right: 10px;
+  }
+  #form {
+    float: left;
+    margin-bottom: 200px;
   }
 }

@@ -634,13 +634,12 @@
 
     .achievement {
         display: grid;
-
-        
+       
         margin-bottom: 40px;
                
         p {
             display: grid;
-            grid-template-columns: 115px 630px;
+            grid-template-columns: 115px 600px;
             grid-column-gap: 30px;
             text-align: justify;
             line-height:25px;
@@ -652,7 +651,6 @@
             border-radius: 50%; 
             border: @border; 
             box-shadow: @box-shadow;
-              
             margin-top: 25px; 
             margin-bottom: 25px;                    
 
@@ -665,7 +663,7 @@
             padding: 7px 20px;
             text-align: justify;
             background-color: @undertone;
-            width: 630px;
+            width: 550px;
             
             
             
@@ -673,7 +671,7 @@
     } 
 
     video {
-        width: 800px;
+        width: 600px;
         display: flex;
         margin: auto;
         border: @border;
@@ -698,13 +696,19 @@
         color: rgb(0, 0, 0);
       }
 
-      #project1, #project2, #project3, #project4 {
-    
+      #box {
+        display: grid;
+        grid-template-columns: 120px 630px;
+        grid-column-gap: 150px;
+        line-height:30px;
+        margin-left: 20px;
+        
+
+      #project1, #project2, #project3, #project4 {     
         border: @border; 
         box-shadow: @box-shadow;
         border-radius: 10%; 
         padding: 10px;
-        margin: 10px auto;
         width: 180px;
         text-align: center;
         font-size: 30px;
@@ -725,6 +729,115 @@
     
        
       }}
+
+      #emova, #edit, #google, #github {
+        
+            border: @border; 
+            box-shadow: @box-shadow;
+
+            
+    
+        
+      }}
+
+      .education {
+        display: grid;
+        grid-template-columns: 120px 600px;
+        grid-column-gap: 40px;
+        text-align: justify;
+        line-height:25px;
+        margin-left: 20px;
+
+        .text {
+            border: @border;
+            box-shadow: @box-shadow;
+            border-radius: 20px;
+            text-align: center;
+            width: 550px;
+            
+
+            
+
+        }
+
+      }
+
+      .years {
+        border: @border;
+        box-shadow: @box-shadow;
+        border-radius: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 140px;
+        text-align: center;
+        background: rgb(102,51,153);
+        background: linear-gradient(45deg, rgba(102,51,153,1) 35%, rgba(221,80,80,0.8494748241093313) 100%);
+        
+      }
+
+      .title {
+
+        border: @border; 
+        box-shadow: @box-shadow;
+        border-radius: 10px; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 180px;
+         text-align: center;
+        font-size: 25px;
+        vertical-align: middle;
+        margin-left: 15px;
+      }
+
+      #cocialnetworks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+      }
+
+      #writeme {
+        font-size: 16px;
+        text-align: center;
+      }
+
+
+      input, textarea {
+        border: @border; 
+        box-shadow: @box-shadow;
+        font-size: 14px;
+        
+        
+    }
+    input:focus, textarea:focus {
+        border: @border; 
+        box-shadow: @box-shadow; 
+        background-color: @undertone;
+        font-size: 14px;
+    }
+    .form {
+        clear:both;
+        text-align:right;
+        line-height:25px;
+        
+    }
+    label {
+        float: left;
+        padding-right:10px;
+    }
+
+    #form {
+        float: left;
+        margin-bottom: 200px;
+              
+        
+    }
+   
+
 
         
     }
