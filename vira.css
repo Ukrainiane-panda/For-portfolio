@@ -5,6 +5,9 @@
     align-items: center;
     font-family: 'Bakbak One', cursive;
   }
+  #forScreenMax899px {
+    display: none;
+  }
   .shapka,
   #hedder {
     display: flex;
@@ -669,5 +672,229 @@
   #form {
     float: left;
     margin-bottom: 200px;
+  }
+  #hedder {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  #hedder h2 {
+    text-align: center;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    letter-spacing: normal;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  #hedder h2:hover {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    width: 150px;
+    letter-spacing: 4px;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  audio {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 30px;
+    justify-content: center;
+  }
+  #victory {
+    display: flex;
+    flex-direction: row;
+    width: 835px;
+    justify-content: space-between;
+    border: 3px solid rebeccapurple;
+  }
+  #victory img {
+    height: 80px;
+  }
+  .aboutArt {
+    display: grid;
+    grid-template-columns: 200px 550px;
+    grid-column-gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .aboutArt img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+  }
+  .aboutArt p {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 15px;
+    padding: 5px;
+    width: 550px;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  #cooking,
+  #cookingmore {
+    display: flex;
+    justify-content: space-between;
+  }
+  #cooking img,
+  #cookingmore img {
+    height: 100px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  #cooking img:hover,
+  #cookingmore img:hover {
+    transform: scale(1.2);
+  }
+  #textAboutCooking {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  #sport {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  #sport {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: center;
+  }
+  #sport #cycling,
+  #sport #sportsblock,
+  #sport #danceblock {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    background-color: rgba(243, 170, 215, 0.87);
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  #sport #cycling p,
+  #sport #sportsblock p,
+  #sport #danceblock p {
+    font-size: 14px;
+  }
+  #sport #cycling img,
+  #sport #sportsblock img,
+  #sport #danceblock img {
+    height: 200px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+    justify-content: center;
+  }
+  #sport #cycling img:hover,
+  #sport #sportsblock img:hover,
+  #sport #danceblock img:hover {
+    transform: scale(1.2);
+  }
+  #sport #cycling:hover,
+  #sport #sportsblock:hover,
+  #sport #danceblock:hover {
+    background-color: rgba(223, 175, 205, 0.87);
+  }
+  #cycling {
+    padding: 5px;
+  }
+  #sportsblock {
+    padding: 5px;
+  }
+  #danceblock {
+    padding: 15px;
+  }
+  #buttonTrip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #ua,
+  #eu {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 15px;
+    font-size: 20px;
+    letter-spacing: normal;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  #ua:hover,
+  #eu:hover {
+    letter-spacing: 4px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(243, 170, 215, 0.87);
+  }
+  #triptoUkraine,
+  #triptoEurope {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .trip {
+    margin: 50px;
+  }
+  iframe {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  iframe:hover {
+    transform: scale(1.5);
+  }
+  #myphotofromatrip span,
+  #myphotofromatriptoEurope span {
+    display: flex;
+    justify-content: space-between;
+  }
+  #myphotofromatrip img,
+  #myphotofromatriptoEurope img {
+    display: flex;
+    margin: auto;
+    height: 200px;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  #myphotofromatrip img:hover,
+  #myphotofromatriptoEurope img:hover {
+    transform: scale(1.5);
+  }
+  #myphotofromatrip p,
+  #myphotofromatriptoEurope p {
+    border: 3px solid rebeccapurple;
+    box-shadow: 0 0 7px #dd5050;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(243, 170, 215, 0.87);
+    text-align: center;
   }
 }
