@@ -20,9 +20,6 @@
         font-family: 'Bakbak One', cursive;
         
     }
-    #forScreenMax899px {
-        display: none;
-    }
 
     .shapka, #hedder {
     
@@ -549,12 +546,10 @@
 
         }
 
-    }
+    }}
 
 
-      
-    }
-
+    
 
 
     
@@ -568,6 +563,12 @@
         align-items: center;
         font-family: 'Bakbak One', cursive;
             
+        }
+
+    .forScreenMax899px {
+        display: block;
+
+
         }
 
         
@@ -846,11 +847,13 @@
     // hobby page 
 
     #hedder {
+
+       
         display: grid;
         grid-template-columns: auto auto;
         grid-column-gap: 40px;
         align-items: center;
-        justify-content: center;
+        justify-content: center; 
         
                 
 
@@ -874,10 +877,8 @@
             letter-spacing: 4px;
             background-color: @undertone;
         
-        }}
+        }}}
         
-
-    }
 
     audio {
         border: @border;
@@ -1108,16 +1109,4 @@
 
         }
 
-    }
-
-
-      
-    }
-
-
-
-
-
-        
-    
-
+    }}
