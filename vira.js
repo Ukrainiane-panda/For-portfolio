@@ -1,4 +1,4 @@
-
+'use strict';
 
 let goo = document.querySelector("#google");
 let writing = document.querySelector("#project1");

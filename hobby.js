@@ -1,4 +1,4 @@
-
+'use strict';
 let chooseSong = function (songs) {
     return songs[Math.floor(Math.random() * songs.length)];
 };
