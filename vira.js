@@ -84,3 +84,9 @@ document.querySelector("#project4").addEventListener("click", (event) => {
     });
 
 */
+
+
+const video = document.querySelector('video');
+
+video.onloadedmetadata = (event) => {
+  console.log('The duration and dimensions of the media and tracks are now known.');
